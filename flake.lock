@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "crane": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1709400089,
+        "narHash": "sha256-4A6X9xNWJ0EQhBPjM4JTdxQFDTkSqQchkNfuDWOP068=",
+        "owner": "ipetkov",
+        "repo": "crane",
+        "rev": "766e70fd475cd4d73bd65613d06bbb3dcbb75871",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ipetkov",
+        "repo": "crane",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1709126324,
+        "narHash": "sha256-q6EQdSeUZOG26WelxqkmR7kArjgWCdw5sfJVHPH/7j8=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "d465f4819400de7c8d874d50b982301f28a84605",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1709386671,
+        "narHash": "sha256-VPqfBnIJ+cfa78pd4Y5Cr6sOWVW8GYHRVucxJGmRf8Q=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "fa9a51752f1b5de583ad5213eb621be071806663",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "openrazer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700930754,
+        "narHash": "sha256-NeVU+51XlkM6Tk7x0bZoEvSMJHaIGRZsUsoPSi9Tsic=",
+        "owner": "openrazer",
+        "repo": "openrazer",
+        "rev": "85e81ae3ba08f2af33031e8a08a4f0ecc6adee91",
+        "type": "github"
+      },
+      "original": {
+        "owner": "openrazer",
+        "repo": "openrazer",
+        "type": "github"
+      }
+    },
+    "razer-cli": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689859535,
+        "narHash": "sha256-ddkZbZzqgxRBKjizQa+4lm+OXnGXROiEtP/ddo4irPw=",
+        "owner": "lolei",
+        "repo": "razer-cli",
+        "rev": "6523cb81dd9269e226d76e628122f5453535f05b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lolei",
+        "repo": "razer-cli",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "crane": "crane",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "openrazer": "openrazer",
+        "razer-cli": "razer-cli"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
